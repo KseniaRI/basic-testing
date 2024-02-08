@@ -1,6 +1,9 @@
-// Uncomment the code below and write your tests
-/* import axios from 'axios';
-import { throttledGetDataFromApi } from './index'; */
+/* eslint-disable prettier/prettier */
+
+// import axios from 'axios';
+// import { throttledGetDataFromApi } from './index';
+
+// jest.mock('axios');
 
 describe('throttledGetDataFromApi', () => {
   test('should create instance with provided base url', async () => {
