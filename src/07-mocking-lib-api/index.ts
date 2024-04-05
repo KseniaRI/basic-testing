@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import axios from 'axios';
 import { throttle } from 'lodash';
 
@@ -7,7 +8,6 @@ const getDataFromApi = async (relativePath: string) => {
   const axiosClient = axios.create({
     baseURL: 'https://jsonplaceholder.typicode.com',
   });
-
   const response = await axiosClient.get(relativePath);
   return response.data;
 };
